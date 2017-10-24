@@ -1,0 +1,266 @@
+@import 'reset.css';
+@import 'grid.css';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
+
+.box-home{
+	float: left;
+	margin-top: 25%;
+}
+
+.logo {
+    width: 100%;
+    float: left;
+}
+
+.logo.login{
+	margin-top: -120px;
+}
+
+.logo img {
+    width: 118px;
+    height: 97px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+@-webkit-keyframes loadingBar{
+	from {background-position: 0 0;}
+	to {background-position: -200% 0%;}
+}
+@-moz-keyframes loadingBar{
+	from {background-position: 0 0;}
+	to {background-position: -200% 0%;}
+}
+@-o-keyframes loadingBar{
+	from {background-position: 0 0;}
+	to {background-position: -200% 0%;}
+}
+@keyframes loadingBar{
+	from {background-position: 0 0;}
+	to {background-position: -200% 0%;}
+}
+
+@-webkit-keyframes bg-btn{
+	from {background-position: 0 0;}
+	to {background-position: -150% 0%;}
+}
+@-moz-keyframes bg-btn{
+	from {background-position: 0 0;}
+	to {background-position: -150% 0%;}
+}
+@-o-keyframes bg-btn{
+	from {background-position: 0 0;}
+	to {background-position: -150% 0%;}
+}
+@keyframes bg-btn{
+	from {background-position: 0 0;}
+	to {background-position: -150% 0%;}
+}
+
+
+.barra-progresso{
+	width: 100%;
+	float: left;
+}
+
+.barra-progresso .info-progress{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+	color: #c2c2c2;
+	font-size: 13px;
+}
+.barra-progresso .info-progress .info-left{
+	float: left;
+}
+.barra-progresso .info-progress .info-right{
+	float: right;
+}
+.barra-progresso .info-progress .info-left.status{
+}
+.barra-progresso .info-progress .info-right.porc{
+	font-size: 15px;
+}
+
+.config.progress-bar{
+	float: left;
+	margin-top: 40px;
+	position: relative;
+	width: 100%;
+	height: 2px;
+
+	background: linear-gradient(270deg, #f1f1f1, #cacaca, #f1f1f1);
+	background-size: 600% 600%;
+	-webkit-animation: bg-btn 4s ease infinite;
+	-moz-animation: bg-btn 4s ease infinite;
+	-o-animation: bg-btn 4s ease infinite;
+	animation: bg-btn 4s ease infinite;
+}
+
+.config.progress-bar.loading .loading-bar{
+	position: absolute;
+	height: 100%; 
+	background-image: url(../img/loading-bar.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	-webkit-animation: loadingBar 4s linear infinite;
+	-moz-animation: loadingBar 4s linear infinite;
+	-o-animation: loadingBar 4s linear infinite;
+	animation: loadingBar 4s linear infinite;
+    -webkit-transition: all 5s;
+    -moz-transition: all 5s;
+    -o-transition: all 5s;
+    -ms-transition: all 5s;
+}
+
+textarea:focus, input:focus, select:focus, button:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.login-box{
+
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+}
+.login-box form .campo .ic{
+	position: absolute;
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+.login-box form .campo .ic.ic-user{
+	background-image: url('../img/ic-user.png');
+	top: 50%;
+	left: 10px;
+	margin-top: -10px;
+}
+.login-box form .campo .ic.ic-view-pass{	
+	background-image: url('../img/ic-view-pass.png');
+	top: 50%;
+	right: 10px;
+	margin-top: -10px;
+}
+.login-box form .campo .ic.ic-pass{
+	background-image: url('../img/ic-pass.png');
+	top: 50%;
+	left: 10px;
+	margin-top: -10px;
+}
+.login-box form .campo{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 45px;
+    margin-top: 5px;
+}
+.login-box form .campo input{
+    width: 100%;
+    height: 100%;
+    text-indent: 40px;
+    border: none;
+    border-bottom: solid #b8b8b8 1px;
+}
+
+
+@-webkit-keyframes bg-btn {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@-moz-keyframes bg-btn {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@keyframes bg-btn { 
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+
+.login-box form .btn-entrar{
+	cursor: pointer;
+	margin-top: 60px;
+	float: left;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 22px 0px 20px 0px;
+	border: none;
+	background: linear-gradient(270deg, #00e4ff, #0996ee, #00e4ff);
+	background-size: 600% 600%;
+	-webkit-animation: bg-btn 8s ease infinite;
+	-moz-animation: bg-btn 8s ease infinite;
+	-o-animation: bg-btn 8s ease infinite;
+	animation: bg-btn 8s ease infinite;
+}
+
+.login-box form .btn-entrar:hover{
+	background: linear-gradient(270deg, #303b42, #1b1f24, #2a343a);
+	-webkit-animation: bg-btn 8s ease infinite;
+	-moz-animation: bg-btn 8s ease infinite;
+	-o-animation: bg-btn 8s ease infinite;
+	animation: bg-btn 8s ease infinite;
+}
+
+
+.box-error{
+    float: left;
+    width: 450px;
+    position: relative;
+    left: 50%;
+    margin: 20px -244px;
+    height: auto;
+    padding: 20px;
+   	background: rgb(255, 219, 90);
+}
+.box-error.red{
+    float: left;
+    width: 450px;
+    position: relative;
+    left: 50%;
+    margin: 20px -244px;
+    height: auto;
+    padding: 20px;
+    background: rgb(134, 134, 134);
+}
+.box-error h2{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.box-error p{
+    font-family: 'Raleway', sans-serif;
+    color: #dedede;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.box-error a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #d2d2d2;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 10px 0px 0px 0px;
+    float: left;
+}
+.box-error a b{
+    color: #00e4ff;
+}
+
+.box-error a b:hover{
+	text-decoration: underline;
+}
