@@ -28,7 +28,7 @@
 					</div>
 					<div class="info-progress">
 						<div class="info-left status">
-							<span>carregando banco de dados</span>
+							<span>Loading</span>
 						</div>
 						<div class="info-right porc">
 							<span>0%</span>
