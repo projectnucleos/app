@@ -43,7 +43,7 @@
 						<a href="#suporte"><b>suporte</b>.</a>
 					</div>						
 				<?php else: ?>
-					<script>LoadingBarPorc(100, 'Banco de dados carregado..');</script>
+					<script>LoadingBarPorc(100, 'Loading Bar..');</script>
 				<?php endif; ?>						
 			</div>
 			<div class="col-mb-0 col-dt-3 col-3"></div>
