@@ -18,7 +18,8 @@
 			<div class="col-mb-0 col-dt-3 col-3"></div>
 			<div class="col-mb-12 col-dt-6 col-6 box-home">				
 				<div class="logo">
-					<img src="assets/img/logo-theme-light.png">
+					<img src="assets/img/logo-theme-light.png"> 
+					
 				</div>			
 
 				<div class="barra-progresso">
