@@ -36,7 +36,7 @@
 				</div>
 				<?php if(!$conn): ?>
 					<div class="box-error red">
-						<h2>Falha na conexão com o banco de dados!</h2>
+						<h2>Falha na conexão com o banco de dados!!</h2>
 						<script>LoadingBarPorc("--", 'Erro!');</script>
 						<p><?php  die(mysqli_connect_error()); ?></p>
 						<a href="#suporte"><b>suporte</b>.</a>
