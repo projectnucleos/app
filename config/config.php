@@ -1,7 +1,7 @@
 <?php
 
 	//CONFIGURAÇÕES DO BANCO DE DADOS
-	define('DBHOST', 'localhost');
+	define('DBHOST', '127.0.0.1');
 	define('DBUSER', 'root');
 	define('DBPASS', null);
 	define('DBNAME', 'nucleos');
