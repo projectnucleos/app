@@ -1,2 +1,2 @@
 <?php
-	$conn = @mysqli_connect(DBHOST,DBUSER,DBPASS);
+	$conn = @mysqli_connect(DBHOST,DBSUSER,DBPASS);
